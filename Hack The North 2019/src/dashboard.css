@@ -1,0 +1,200 @@
+.app {
+  width: 100vw;
+  margin: 0 auto;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  background: none;
+}
+
+.navbar {
+  background-color: #12422a !important;
+}
+
+.labelled-dollar-amount-container {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  margin: 1em 0;
+}
+.labelled-dollar-amount-container .amount-label {
+  font-size: 1.2em;
+  font-family: Arial;
+  margin-right: 0.7em;
+  width: 7.7em;
+}
+.labelled-dollar-amount-container .amount-container {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #35B234;
+  border-radius: 0.2em;
+  width: 7em;
+  height: 2.8em;
+  font-family: Arial;
+  background-color: #35B234;
+  color: white;
+  padding: 0.2em;
+}
+.labelled-dollar-amount-container .amount-container .amount {
+  font-size: 1.3em;
+  margin: 0;
+}
+
+.monthly-report-container {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+}
+.monthly-report-container .label {
+  font-family: Arial;
+  font-size: 1.1em;
+  width: 6em;
+}
+.monthly-report-container .header-container {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+}
+.monthly-report-container .header-container .header {
+  font-family: Arial;
+  font-size: 1.1em;
+  margin: 5px;
+  width: 6.5em;
+  height: 2em;
+  border: 1px solid white;
+  border-radius: 0.2em;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+}
+.monthly-report-container .spending-summary-container {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  margin-bottom: 0.5em;
+}
+.monthly-report-container .spending-summary-container .amount {
+  font-family: Arial;
+  font-size: 1.1em;
+  border: 1px solid #35B234;
+  border-radius: 0.2em;
+  margin: 5px;
+  width: 6.5em;
+  height: 3em;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  background-color: #35B234;
+  color: white;
+}
+
+.title {
+  width: 100%;
+  height: 2em;
+  background-color: #35B234;
+  color: white;
+  font-family: Arial;
+  font-size: 2.5em;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  visibility: hidden;
+}
+
+.content {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+#this-month-section {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: flex-start;
+  align-items: center;
+  min-height: 100vh;
+}
+#this-month-section .content {
+  margin: 5em auto 0;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+}
+#this-month-section .monthly-report-container {
+  width: 45em;
+  margin: 0em 8em 1em 0;
+}
+
+#monthly-history-section {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0 auto;
+}
+#monthly-history-section .graph-placeholder {
+  width: 45em;
+  height: 300px;
+  background-color: pink;
+  margin: 0em 8em 1em 0;
+}
+#monthly-history-section .income-totals {
+  display: flex;
+  flex-flow: column wrap;
+}
+
+#debt-section {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  min-height: 100vh;
+}
+#debt-section .graph-placeholder {
+  width: 45em;
+  height: 300px;
+  background-color: lightgrey;
+  margin: 1em 8em 1em 0;
+}
+#debt-section .debt-totals {
+  display: flex;
+  flex-flow: column wrap;
+}
+
+.score-container {
+  font-family: Arial;
+  font-size: 3em;
+  border: 1px solid #35B234;
+  border-radius: 0.2em;
+  margin: 5px;
+  width: 6.5em;
+  height: 3em;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  color: #35B234;
+  margin-bottom: 2em;
+}
+
+.score-label {
+  font-family: Arial;
+  font-size: 1.5em;
+  margin-bottom: 0.2em;
+}
+
+/*# sourceMappingURL=dashboard.css.map */

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="sliders.css">
+	<!-- Firebase stuff -->
+	<script src="scripts/firebase-app.js"></script>
+	<script src="scripts/firebase-database.js"></script>
+	<script src="scripts/firebase-auth.js"></script>
+</head>
+<body class="scroll-holder">
+	<div class="bars" content="width=device-width, initial-scale=1">
+		<h1>Categories:</h1>
+
+		<h2>Fashion</h1>
+		<div class="slidecontainer">
+  		<input type="range" min="0" max="100" value="0" class="slider" id="myRange1">
+  		<p>Percent of budget: <span id="demo1"></span>%</p>
+		</div>
+
+		<h2>Electronics</h1>
+		<div class="slidecontainer">
+  		<input type="range" min="0" max="100" value="0" class="slider" id="myRange2">
+  		<p>Percent of budget: <span id="demo2"></span>%</p>
+		</div>
+
+		<h2>Food</h1>
+		<div class="slidecontainer">
+  		<input type="range" min="0" max="100" value="0" class="slider" id="myRange3">
+  		<p>Percent of budget: <span id="demo3"></span>%</p>
+		</div>
+
+		<h2>Home and Kitchen</h1>
+		<div class="slidecontainer">
+  		<input type="range" min="0" max="100" value="0" class="slider" id="myRange4">
+  		<p>Percent of budget: <span id="demo4"></span>%</p>
+		</div>
+
+		<h2>Office Products</h1>
+		<div class="slidecontainer">
+  		<input type="range" min="0" max="100" value="0" class="slider" id="myRange5">
+  		<p>Percent of budget: <span id="demo5"></span>%</p>
+		</div>
+		<div class="submit">
+			<button id="submit-button" type="submit">Submit</button>
+		</div>
+	</div>
+</body>
+<script type="text/javascript" src="sliders.js"></script>
+</html>

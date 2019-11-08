@@ -1,0 +1,38 @@
+html {
+	height: 100%;
+}
+
+body {
+	background: url(https://images.unsplash.com/photo-1459257831348-f0cdd359235f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2850&q=80);
+	background-repeat: no-repeat;
+	background-position: bottom;
+	background-size: cover;
+}
+
+.navbar {
+	background-color: #12422a !important;
+}
+
+.enter {
+	padding-top: 10%;
+	padding-left: 5%;
+	padding-right: 65%;
+}
+
+.submit {
+	margin: 0;
+	text-align: center;
+}
+
+.btn-login {
+    color: #fff;
+    background-color: #008a00;
+    border-color: #008a00;
+}
+
+.error-message {
+	color: #ae1100;
+    background: #f7e8e9;
+    text-align: center;
+    display: none;
+}
