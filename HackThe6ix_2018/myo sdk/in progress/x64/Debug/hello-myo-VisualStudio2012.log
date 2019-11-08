@@ -1,0 +1,8 @@
+﻿  hello-myo.cpp
+c:\andy\github\hackthe6ix\myo sdk\include\myo\cxx\detail\throwonerror.hpp(39): warning C4297: 'myo::ThrowOnError::~ThrowOnError': function assumed not to throw an exception but does
+  c:\andy\github\hackthe6ix\myo sdk\include\myo\cxx\detail\throwonerror.hpp(39): note: destructor or deallocator has a (possibly implicit) non-throwing exception specification
+c:\andy\github\hackthe6ix\myo sdk\include\myo\cxx\detail\throwonerror.hpp(45): warning C4297: 'myo::ThrowOnError::~ThrowOnError': function assumed not to throw an exception but does
+  c:\andy\github\hackthe6ix\myo sdk\include\myo\cxx\detail\throwonerror.hpp(45): note: destructor or deallocator has a (possibly implicit) non-throwing exception specification
+  hello-myo-VisualStudio2012.vcxproj -> C:\Andy\Github\HackThe6ix\myo sdk\in progress\x64\Debug\hello-myo.exe
+  Copy required dlls to output directory
+          1 file(s) copied.
